@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SenwesAssignment_API</name>
+    </assembly>
+    <members>
+        <member name="M:SenwesAssignment_API.Controllers.EmployeeController.Get">
+            <summary>
+            Get all employees
+            </summary>
+            <returns>Returns a list of all employees</returns>
+        </member>
+        <member name="M:SenwesAssignment_API.Controllers.EmployeeController.GetEmployeeByYears(System.Double)">
+            <summary>
+            Get all employees that joined the company in the last 5 years (DateOfJoining) 
+            </summary>
+            <param name="years"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SenwesAssignment_API.Controllers.EmployeeController.GetEmployeeByAge(System.Double)">
+            <summary>
+            Get all employees older than 30 (Age)
+            </summary>
+            <param name="age"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SenwesAssignment_API.Controllers.EmployeeController.GetHighestPaid(System.Int32)">
+            <summary>
+            Get the top 10 highest paid males/females
+            </summary>
+            <param name="top"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SenwesAssignment_API.Controllers.EmployeeController.GetEmployeeByNameCity(System.String,System.String)" -->
+        <member name="M:SenwesAssignment_API.Controllers.EmployeeController.GetEmployeeByName(System.String)">
+            <summary>
+            Get all employees with a first name of “Treasure” and then return their salary
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SenwesAssignment_API.Controllers.EmployeeController.GetAllCities">
+            <summary>
+            Get All City names only and allow unauthenticated users to access this end point
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
